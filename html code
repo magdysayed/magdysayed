@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- دا اسم الموقع -->
+        <title>my first project</title>
+        <!--دا بيكون الكلام المكتوب تحت اسم الموقع-->
+        <meta name="description" content="this is my first book">
+
+        <link rel="stylesheet" href="css/master.scc">
+    </head>
+    <!--
+         b -> make bond
+         strong -> make bond : important text
+         i-> الحروف المايله
+         mark-> marked
+         u -> under line
+         small -> smaller text
+         del -> deleteted text
+         ins -> inserted text
+         sub -> sub scripte
+         sup -> super scripte
+         a -> to add link   target : _blank -> to open in anew tab   titel -> عنوان بيتكتب لما نقف علي الكلمه
+        
+        Img -> to bring photo --------- src-> source ,,, alt -> altrenate text
+
+        ------------------------------------------------------------------------------------------
+
+        ul -> un order list       with tag <li> -> list item
+        ol -> order list          with tag <li> -> list item  
+             ---atributes--
+             reversed -> opposite order 
+             start -> start of count 
+             type -> type of order
+            ---------------------------
+
+        dl -> discription list    with   dt -> discrption term   and    dd ->discrption of the term
+-------------------------------------------------------------------------------------------------------
+    <tabel -> to insert data   with 
+        thead
+        tr  -> table row
+        td -> tabel data
+        th -> tabel header sell
+        tbody
+        tfoot
+        caption -> descripe the table
+        attribute   -> colspan -> لدمج خليتين
+        -------------------------------------------------------------------
+        span -> inline element
+        br -> break line
+        hr -> horizontal line
+        ----------------------------------------------------------------
+        div -> لتقسيم الاشياء وعملها في جروب معا
+        with attribute class لتصنيف كل div منهم
+        ----------------------------------------------
+        &lt p &gt  -. to print <p>
+            --------------------------------------------------------------------
+        SEMANTIC -> بدل م افضل اعمل divs كتير جوا بعض وكل div ليه كلاس واتلخب
+        لاا في حجات جاهزه تدل علي الحجات دي زي 
+        header -- footer -- aside --nav -- section  كل واحد من دول div يس باسم بيعبر عنه
+        ------------------------------------------------------------------------------------------
+        <aduio>  -> for sound
+            source -> link of audio       type -> type of MMIE
+          loop -> repeat            mute
+          ----------------------------------------------------------------
+          vedio => same as aduio
+          poster => image show until start
+          ----------------------------------------------------------------
+          form -> to make a part to enter some thing  , action => put the link that u wanna save data in.
+          1- label => descripe the input
+          2- input => 
+          attributes
+          (required ===> must add data
+           placeholder ===> type what u should add in the box
+           name => make every name for input difference)=>are atributes
+           method => make data show at link or not
+           readonly => only for reed but send data
+           disabel => only for reed but not send data
+           autofoucs
+           minlength => leatest charactar u can add
+           id => to connect label with input
+          
+           type of input
+           ==> hidden
+           ==> submit and reset
+           ==> text
+           ==> password
+           ==> email
+           ==>color
+           ==> search
+           ==> file
+           ==> range >>>>>> max , min , step , value
+           ==> number >>>>>> max , min , step , value
+           -------------------------------------------------
+           type of input
+           ==> radio >>>>> name , value , label
+           ==> checkbox
+
+           ---------------------------------------
+           select => to make select box with atributes name , id 
+           attribute
+           option ==> to make items
+           optgroup ==> to make group of options with >>> label
+           textarea ==> make area u can write in.
+           ---------------------------------------------------
+        -->
+
+
+
+
+
+    
+
+    <body>
+
+
+           <p>this is paragraph</p>
+          <form method="tag" >
+          <!--<div>
+             <label >username</label>
+            <input type="text" required placeholder="username" name="user" autofocus>
+           </div>
+           <br>
+          <div>
+             <label >password</label>
+            <input type="password" required name="pass">
+            <br>
+            
+          </div>
+           <div>
+             <label >range</label>
+            <input type="range"  name="range" min="0" max="100">
+            <br>
+            
+             <div>
+             <label >color</label>
+            <input type="color" required name="color">
+            <br>
+          </div>
+           <div>
+             <label >number</label>
+            <input type="number"  name="number">
+            <br>
+          </div>   
+          </div> 
+
+
+
+          <div> 
+            <input id="win" type="radio" name="os" value="windows" checked>
+            <label for="win" >windows</label>
+          </div>
+          <br>
+          <div>
+            <input type="radio" name="os" value="mac">
+            <label >mac</label>
+          </div>
+          <br>
+          <div>
+            <input type="radio" name="os" value="ios">
+            <label >ios</label>
+          </div>
+          <br>
+          <hr>
+          <div> 
+            <input id="win1" type="checkbox" name="os" value="windows" checked>
+            <label for="win1" >windows</label>
+          </div>
+          <br>
+          <div>
+            <input id="mac1" type="checkbox" name="os" value="mac">
+            <label for="mac1" >mac</label>
+          </div>
+          <br>
+          <div>
+            <input id="io1" type="checkbox" name="os" value="ios">
+            <label for="io1" >ios</label>
+          </div>
+          <br>
+        
+        <h3>please select </h3>
+        <br>
+        <label for="book">select book</label>
+        
+        <select name="book" id="book">
+           <optgroup label="romantic books">
+             <option value="1">book1</option>
+            <option value="2">book2</option>
+            <option value="3">book3</option>
+            <option value="4">book4</option>
+           </optgroup>
+           <optgroup label="police books">
+             <option value="5">book5</option>
+            <option value="6">book6</option>
+            <option value="7">book7</option>
+            <option value="8">book8</option>
+           </optgroup>
+           <optgroup label="sports book">
+             <option value="9">book9</option>
+            <option value="10">book10</option>
+            <option value="11">book11</option>
+            <option value="12">book12</option>
+           </optgroup>   
+        </select>  -->
+        <label >search</label>
+        <input type="search">
+        <br>
+
+          <input type="submit">
+            <input type="reset">
+        </form>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <div class="all"> <div class="start"> <h1>this is my first project</h1>
+        <p>lets try alot </p></div>
+       
+       <div>
+         <table border="1">
+            <caption>student marks</caption>
+            <thead>
+                <tr>
+                    <th>fname</td>
+                    <th>lname</td>
+                    <th>mark</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>magdy</td>
+                    <td>sayed</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>magdy</td>
+                    <td>sayed</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>magdy</td>
+                    <td>sayed</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>magdy</td>
+                    <td>sayed</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>magdy</td>
+                    <td>sayed</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>magdy</td>
+                    <td>sayed</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>magdy</td>
+                    <td>sayed</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">total</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table>
+       </div>
+       </div>
+        <span>name</span>
+        <p>this is next para , <br>
+             text</p>
+             <hr>
+             <p>second parag</p>
+
+             <div>hello to &lt;p &gt; </div>
+             <header>hello</header>
+             <nav>link</nav>
+             <aside>article</aside>
+             <footer>go back</footer>
+             <audio controls autoplay>
+                <source src="10 - A Drop of White.mp3" type="audio/mpeg">
+             </audio>
+             <img src="photo_2022-08-07_15-41-44.jpg" alt="deleted">
+             <video controls src="video_2022-07-30_02-01-27.mp4" poster="photo_2022-08-07_15-41-44.jpg"></video> -->
+          
+    </body>
+    
+</html>
