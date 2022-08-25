@@ -1,0 +1,34 @@
+lesson one
+
+<!-- اول حاجه عشان نجيب الحجات الي هنكتب فيها بنضغظ
+shift + 1 >>> enter -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- هنا اسم الموقع بتاعنا -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- الكود بيتكتب هنا -->
+
+     <h1>this is my website</h1> <!-- دا عنوان رئيسي هيظهر ف الصفحة بتاعتي -->
+     <h2>this is my website</h2> <!-- دا عنوان رئيسي هيظهر ف الصفحة بتاعتي -->
+     <h3>this is my website</h3> <!-- دا عنوان رئيسي هيظهر ف الصفحة بتاعتي -->
+     <h4>this is my website</h4> <!-- دا عنوان رئيسي هيظهر ف الصفحة بتاعتي -->
+     <h5>this is my website</h5> <!-- دا عنوان رئيسي هيظهر ف الصفحة بتاعتي -->
+     <h6>this is my website</h6> <!-- دا عنوان رئيسي هيظهر ف الصفحة بتاعتي -->
+
+
+
+     <p>you can buy books from here</p> <!--بكتب هنا paragraph-->
+
+      <strong>hi</strong>   <!-- بتخلي حجم الكلمه اكبر -->
+      <b>hello</b> <!--بتخلي حجم الكلمة اكبر-->
+      <u>hello</u> <!--بيحط خط تحت الكلمه-->
+      <i>hello</i>  <!--بيخلي الكلمة مايله-->
+      <mark>hello</mark>  <!--  بيحط علامه علي الكلمة تميزها-->
+     
+</body>
+</html>
