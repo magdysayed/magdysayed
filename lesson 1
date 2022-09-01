@@ -1,1 +1,19 @@
---------------------------first lesso---------------------------
+lesson 2
+
+         del -> deleteted text  عشان اشطب علي السعر القديم
+         ins -> inserted text   عشان اضيف كلام جديد
+         sub -> sub scripte    عشان اخلي كلام مرفوع فوق
+         sup -> super scripte  عشان اخلي كلام نازل لتحت
+         pre -> write a paragraph with respect to spaces   بعمل برجراف بس بحافظ علي المسافات ببن الكلام
+         
+         a -> to add link   , herf>>write link here ,   target : _blank -> to open in anew tab ,  titel -> عنوان بيتكتب لما نقف علي الكلمه
+         مثال >> <a href="https://www.amazon.eg/" title="go to amazon" target="_blank">amazon</a>
+
+         img => add image  نتأكد واحنا بنضيف الصوره انها موجوده ف نفس الفايل الي احنا عاملينه للكورس ولو مش موجوده نروح نعملها كوبي ونضيفها فيه 
+         hr=> to make hirozontal line
+         br => new line
+         
+         
+         NEW TASK >>>
+         <button>بكتب هنا الكلمه الي عايزها تظهر ف الموقغ</button>    >>> to make a button in my website
+        
