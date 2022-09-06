@@ -1,0 +1,77 @@
+ ul -> unorder list       with tag <li> -> list item
+        ol -> order list          with tag <li> -> list item  
+             ---atributes--
+             reversed -> opposite order 
+             start -> start of count 
+             type -> type of order
+            ---------------------------
+
+        dl -> discription list    with   dt ->  term   and    dd ->discrption of the term
+        ------------------------------------------------------------------------------------------
+        <tabel -> to insert data   with 
+        >>> thead
+         tr  -> table row
+         td -> tabel data
+         th -> tabel header sell
+        >>> tbody
+         tr  -> table row
+         td -> tabel data
+        >>> tfoot
+         tr  -> table row
+         td -> tabel data
+        caption -> descripe the table
+        attribute   -> colspan -> لدمج خليتين
+        
+      -------------------------------------------------------------------------------------  
+        ex.
+         <ol>    <!--to make order list -->
+        <li>html</li>   <!--عشان اضيف عناصر ال list-->
+
+    </ol>
+
+    <ul>    <!--to make unorder list -->
+        <li>html</li>   <!--عشان اضيف عناصر ال list-->
+
+    </ul>
+    
+    ----------------------------------------------------------------------------------------
+    <table border="1">    <!-- >>>بعرف الموقع اني هعمل table -->
+        
+        <caption>   <!-- هعمل عنوان لل table-->
+            student marks
+        </caption>
+        <thead>      >>> رأس الموقع
+            <tr>     >>>عشان اضيف صف
+                <td>name</td>    >>>البيانات الي هكتبها ف الجدول
+                <td>subject</td>
+                <td>mark</td>
+            </tr>
+        </thead>
+        <tbody>    
+            <tr>
+                <td>magdy</td>
+                <td>scince</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>adam</td>
+                <td>scince</td>
+                <td>40</td>
+            </tr>
+        </tbody>
+       <tfoot>
+        <tr>
+             <td colspan="2"  عشان ادمج خليتين مع بعض >total mark</td> -->
+            <td>80</td>
+        </tr>
+       </tfoot>
+
+        
+    </table>
+
+    
+--------------------------------------------------------------------------------------------------------
+
+
+
+
