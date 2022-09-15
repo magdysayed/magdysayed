@@ -1,0 +1,28 @@
+<!-- 1- div with classes
+    2- inputs -->
+
+
+
+    <!-- form -> to make a part to enter some thing  
+          1- label => descripe the input
+          2- input => 
+          type of input
+           ==> hidden
+           ==> submit and reset
+           ==> text >>> for username
+           ==> password >>> for password
+           ==> email 
+           ==>color
+           ==> search
+           ==> file
+           ==> range >>>>>> max , min , step , value
+           ==> number >>>>>> max , min , step , value 
+
+            ****attributes*******
+          1-required ===> must add data
+          2-placeholder ===> type what u should add in the box
+          3-name => make every name for input difference)=>are atributes
+          4-autofoucs 
+          5-minlength => leatest charactar u can add
+          6-id => to connect label with input -->
+          
