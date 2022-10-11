@@ -1,0 +1,33 @@
+/*  1-ازاي نعمل ملف css
+2-ازاي ادي تنسيقات لعنصر معين لو p , div .... او لو class
+3- ازاي انسق واحد فيهم بس وازاي انسقهم كلهم مع بعض
+
+-----------------------------------------------------
+
+4- background-color   >>> rgb()
+background-image: url()
+background-repeat:repaet , norepeat repeat-x repeat-y
+backgound-attachment: scroll  fixed
+background-possition: left top ......20px 20px
+background-size : auto  cover  countain.
+
+
+
+
+لو هعمل تنسيق ل class لاااازم احط قبل اسم ال class .      
+ex:
+.h1 {
+background-color: red ;
+}
+
+
+لو هنسق بناءا علي id ف بحط قبله #
+ex
+#h1 {
+background-color:red;
+}
+
+background-image: url(بحط هنا لينك الصوره)
+background-possition : مكان الصوره  ... هوضحها اكتر السيشن الجي
+background-attachment : scroll (لو عايز الصوره تمشي معاك ف الصفحه)   fixed (لو عايزها تفضل ثابته)
+background-size : حجم الصوره
